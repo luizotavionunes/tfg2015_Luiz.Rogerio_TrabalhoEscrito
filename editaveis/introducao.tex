@@ -1,0 +1,48 @@
+\chapter[Introdução]{Introdução}
+A busca por maneiras mais eficientes\footnote{Compreende-se como aumento de eficiência todos os procedimentos que contribuam para o
+aumento de lucro da empresa.} de produção e gerenciamento no ambiente empresarial sempre foi um esforço constante. Mais do que uma 
+questão de aumento de eficiência, no cenário atual, isso se tornou uma questão de sobrevivência no mercado. Um dos itens chave na busca 
+do aumento da eficiência no meio industrial e comercial é a automatização de processos. 
+
+O sucesso de uma instituição/empresa está diretamente relacionado a forma com que o administrador/empresário otimiza os processos nela 
+envolvidos. De maneira geral tem-se a seguinte situação: quanto maior o nível de automatização, maior será o seu faturamento bem como a
+suas margens de lucro. Além disso, o seu nível de profissionalização tende a se elevar. A partir da década de 70 vários setores da economia 
+viram-se obrigados a seguir essa linha de pensamento, realizando a implantação em massa de técnicas de otimização em seus processos produtivos. 
+De acordo com os dados da empresa de associação comercial de varejo \texttt{National Retail Federation} divulgados por \cite{beitol2015}, as 
+lojas que utilizaram equipamentos e \textit{softwares} com o intuito de automatizar a captura de dados no \texttt{Ponto de Venda (PDV)}, obtiveram em 
+média 16\% de aumento de vendas, com algumas lojas atingindo até 23\%.
+
+Processos que são operados e/ou controlados exclusivamente por funcionários, estão sujeitos a vários riscos e inconvenientes como por exemplo: 
+erros provenientes de falha humana, informações insuficientes e/ou inconsistentes à respeito do processo de produção, dificuldade ou mesmo a
+impossibilidade de realização de um \textit{feedback} confiável, queda de produtividade e consequentemente de lucros, entre outros.
+
+A engenharia de controle ao lado da computação tiveram papel fundamental na solução desse problema, sendo responsáveis pelo surgimento dos 
+conceitos de automação industrial e informatização pela primeira vez. Nos setores primários e secundários da economia, prevalece o conceito 
+de automação industrial, que consiste em sistemas automáticos de \textit{hardware} e/ou \textit{software}. Já as soluções de automatização 
+por \textit{software} são amplamente utilizadas no setor terciário. Independentemente de qual setor da economia que a instituição se enquadre, 
+o objetivo de tais sistemas é justamente eliminar ou pelo menos amenizar os problemas citados acima. 
+
+No meio industrial prevalece a utilização de computadores de pequeno porte, que tem como características o seu baixo poder de processamento 
+(no entanto, capacidade suficiente para a execução da tarefa desejada) e baixo custo. Tais computadores são mais conhecidos como microcontroladores,
+que são compostos por uma unidade central de processamento, memória, e pinos de \texttt{I/O}. Muitos modelos de microcontroladores vão além 
+dessa estrutura básica, apresentando uma série de periféricos integrados. Entretanto, o processo de implantação de alguma solução de automação 
+ou informatização, requer um estudo detalhado de como projetar, avaliar e adquirir os componentes necessários a implementação do sistema automatizado 
+(sistemas automatizados podem ser constituídos tanto por soluções de \textit{hardware}, \textit{software} ou de ambas).
+
+  	A utilização de microcontroladores em conjunto com algum \textit{software} que tenha como objetivo a coleta, análise e armazenagem de 
+  	dados faz surgir o conceito de sistema supervisório. Em outras palavras, tal sistema consiste em uma ferramenta capaz de adquirir e armazenar
+  	informações, além de poder controlar uma grande variedade de processos. 
+
+O presente trabalho irá abordar a implementação de um sistema supervisório de tempo real, destinado ao controle do fluxo de clientes em uma 
+rede de motéis. A problemática do trabalho foi construída a partir de uma situação indesejada enfrentada por um empresário proprietário de uma
+rede de motéis na qual, o controle de entrada e saída de clientes é totalmente realizado de forma manual. O empresário passava por vários problemas 
+oriundos dessa abordagem como por exemplo: falta de controle sob a entrada e saída clientes, o que provocava a geração de um fluxo de caixa 
+inconsistente, além de extravios de dinheiro por parte dos funcionários responsáveis pelo controle do processo. Consultando várias soluções 
+oferecidas pelo mercado, o empresário sentiu-se desmotivado em função do elevado custo relacionado a aquisição e implantação do sistema. 
+Diante de tal situação, é formulada a seguinte problemática para o trabalho em questão: 
+“Como implementar um sistema supervisório de tempo real de baixo custo para realizar o controle do fluxo de clientes na rede de móteis? ” 
+
+	O sistema a ser desenvolvido terá a sua parte de aquisição de dados constituída por um computador de baixa capacidade e sensores de 
+	proximidade que serão responsáveis pela detecção do fluxo de entrada e saída de clientes. A parte de armazenamento de informações será
+	implementa por meio de um banco de dados online. A manipulação e análise dos dados será realizada por um \textit{software} a ser 
+	desenvolvido que permitirá a visualização e interpretação dos dados adquiridos em tempo real.

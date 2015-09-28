@@ -1,0 +1,23 @@
+\chapter[Metodologia]{Metodologia}
+
+O primeiro passo no desenvolvimento do projeto será a realização de um estudo a fim de se definir quais sensores serão utilizados. 
+Serão realizados alguns testes com sensores de proximidade indutivos, capacitivos, ultrassônicos e de luz infravermelha para verificar
+se estão de acordo as necessidades e realidade do cliente. Também serão realizados testes preliminares, relacionados aos aspectos de 
+comportamento da placa \texttt{CORTEX M3} perante a algumas situações relacionadas a questões de tempo de resposta e erros de aquisição de dados. 
+Todos os ensaios serão realizados no laboratório de eletrônica da universidade.
+
+Concluída a fase de testes dos sensores do sistema de \textit{hardware}, o próximo passo consistirá no desenvolvimento do sistema supervisório, 
+que será descarregado na placa de aquisição de dados. A plataforma utilizada para o desenvolvimento do \textit{software} será a \texttt{IDE Atmel Studio}, 
+que é projetada pela Somnium exclusivamente para controladores ARM desse fabricante. A implementação do código será realizada utilizando 
+a linguagem de programação \texttt{C}. O objetivo do \textit{software} consiste em obter a data e hora em que os eventos (entrada e saída de clientes) 
+captados pelos sensores ocorrem. Nesta etapa também será analisada a necessidade do uso de interrupções para obtenção dos dados de forma 
+segura e eficiente.
+
+Com o microcontrolador programado e em perfeita sincronia com os sensores, será iniciado o desenvolvimento da segunda parte do projeto 
+que consiste no \textit{software} de gerenciamento e manipulação de dados. Tal \textit{software} será implementado em uma interface \texttt{Web} e terá o seu 
+desenvolvimento norteado de acordo com os conceitos de engenharia de \textit{software}. A interface terá como principal objetivo proporcionar 
+uma visão macro do controle de fluxo de clientes em tempo real. Nessa interface serão priorizadas ferramentas que auxiliem a geração de 
+relatórios e que descrevam o comportamento do sistema, permitindo a estipulação de novas estratégias para aumento de eficiência e lucro. 
+
+A etapa seguinte será a realização de ensaios envolvendo aquisição, armazenamento, processamento e interpretação dos dados adquiridos. 
+Obtendo êxito nesse ponto, o passo final consistirá na implementação real do sistema na rede de motéis. 
