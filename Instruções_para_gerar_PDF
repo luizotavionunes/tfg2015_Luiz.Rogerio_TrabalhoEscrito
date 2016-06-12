@@ -1,7 +1,7 @@
 * Tutorial para instalar ABNTEX2 no linux
 
 1 - Acessar diretório raiz do projeto via terminal;
-2 - Digitar o seguinte comando no terminal : make;
-3 - Para limpar o projeto, digite o seguinte comando: make clean
+2 - Digitar o seguinte commando no terminal : make;
+3 - Para limpar o projeto, digite o seguinte commando: make clean
 
 OBs: Ao atualizar a versão PDF, sobrescrever a versão anterior na pasta "ArquivoFinal_TFG_PDF" 
